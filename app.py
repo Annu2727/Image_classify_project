@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model # type: ignore
 import streamlit as st
 import numpy as py
 
-model = load_model(r"C:\Users\annu\IdeaProjects\Image_classify.keras")
+model = load_model(r":\Users\annu\IdeaProjects\Image_classification_project/Image_classify.keras")
 data_cat = ['apple',
  'banana',
  'beetroot',
@@ -46,7 +46,7 @@ st.header("Image Classification Modal")
 img_height = 180
 img_width = 180 
 
-image = st.text_input("Enter the fruit name", r'C:\Users\annu\IdeaProjects\beetroot.jpg')
+image = st.text_input("Enter the fruit name", r'C:\Users\annu\IdeaProjects\Image_classification_project\beetroot.jpg')
 
 image_load = tf.keras.utils.load_img(image, target_size=(img_height, img_width))
 img_arr =  tf.keras.utils.array_to_img(image_load)
