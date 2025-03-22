@@ -1,15 +1,19 @@
 # Image_classify_project
-🍎 Fruit Classification using Deep Learning
+🍎 Fruit Classification using Deep Learning: 
 This project implements a fruit classification model. The model is trained on a dataset of different fruit images, incorporating data preprocessing and augmentation techniques to improve accuracy and generalization.
-🔧 Data Preprocessing & Augmentation
-Resizing images to a fixed dimension
 
-Normalization to scale pixel values
+🔧 Data Preprocessing & Augmentation:
 
-Cropping to focus on the main object
+1.Resizing images to a fixed dimension
 
-Rotation, flipping, and zooming for better generalization
-📊 Model Evaluation
+2.Normalization to scale pixel values
+
+3.Cropping to focus on the main object
+
+4.Rotation, flipping, and zooming for better generalization
+
+📊 Model Evaluation:
+
 The model performance is assessed using:
 
 Accuracy
